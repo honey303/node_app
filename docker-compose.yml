@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+
+  frontend:
+    build: ./fe
+    command: node server.js
+    ports:
+      - "80:3000"
+    restart: always
