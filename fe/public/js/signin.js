@@ -7,8 +7,7 @@ function add_user_to_db() {
                          '<strong>Alert!</strong> Incorrect Password! Please try again!' +
                       '</div>'
 
-   // let url = `https://b9kznciqll.execute-api.us-east-1.amazonaws.com/dev/adduser`
-   let url = `https://ys32lg5i7f.execute-api.ap-southeast-1.amazonaws.com/Stage/adduser`
+     
 
    data = {
      'email': userid,
