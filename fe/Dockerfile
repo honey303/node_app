@@ -4,7 +4,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUM npm install
+RUN npm install
 
 COPY . .
 
